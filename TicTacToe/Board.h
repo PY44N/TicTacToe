@@ -1,9 +1,9 @@
+#pragma once
+
 #include <vector>
 
 #include "Engine/Util/Vector2.h"
 
-#ifndef BOARD_OBJECT
-#define BOARD_OBJECT
 class Board
 {
 private:
@@ -21,4 +21,3 @@ public:
 	bool isBoardFull();
 	bool isValidPosition(const Vector2& position);
 };
-#endif 

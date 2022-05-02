@@ -1,5 +1,5 @@
-#ifndef VectorObject_H
-#define VectorObject_H
+#pragma once
+
 class Vector2 {
 public:
 	Vector2();
@@ -8,4 +8,3 @@ public:
 	int x;
 	int y;
 };
-#endif

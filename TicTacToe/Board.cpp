@@ -121,8 +121,5 @@ bool Board::isBoardFull()
 
 bool Board::isValidPosition(const Vector2& position)
 {
-	if (board[position.y][position.x] == 0) {
-		return true;
-	}
-	return false;
+	return (board[position.y][position.x] == 0);
 }
