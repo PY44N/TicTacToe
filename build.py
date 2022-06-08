@@ -6,11 +6,11 @@ from threading import Thread
 
 # Settings
 CC = "g++"  # The compiler
-CFLAGS = "-std=c++17"  # Compiler flags
+CFLAGS = "-std=c++17 -O3"  # Compiler flags
 
 LINKFLAGS = ""  # Linker flags
 
-NAME = "out"  # Executable name
+NAME = "TicTacToe"  # Executable name
 SRCDIR = "src"  # Source directory
 
 FILEENDING = ".cpp"  # The file ending for the language
