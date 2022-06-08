@@ -1,5 +1,2 @@
-Release
-x64
-TicTacToe/Release
-TicTacToe/x64
-.vs
+*.o
+TicTacToe.exe
