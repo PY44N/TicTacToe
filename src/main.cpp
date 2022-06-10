@@ -3,15 +3,17 @@
 #include "Game.h"
 
 int main() {
-	Game game;
+  while (true) {
+    Game game;
 
-	char playAgain;
-	std::cout << "Would you like to play again? [y/n]" << std::endl;
-	std::cin >> playAgain;
+    char playAgain;
+    std::cout << "Would you like to play again? [y/n]" << std::endl;
+    std::cin >> playAgain;
 
-	if (playAgain == 'y') {
-		main();
-	}
+    if (playAgain != 'y') {
+      break;
+    }
+  }
 
-	return 0;
+  return 0;
 }
